@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #40514E;
+}
+h1{
+  font-size: 4rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3{
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted;
+  width: 65px;
+  margin: 10% auto;
+  border-width: 0 0 8px 0;
+  color: #AAB4B2;
+  clear: both;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* a:hover{
+  color: #00AA96;
+} */
+
+
+.top-container {
+  position: relative;
+  padding-top: 80px;
+  background-color: #defcf9;
+  color: #66BFBF;
+  margin-bottom: 100px;
+}
+
+
+.top_cloud{
+  position: absolute;
+  left: 60%;
+  top: 30px;
+}
+
+.top-h1 {
+  margin: 130px auto 0 auto;
+}
+
+.top-h2{
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.bot_cloud{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.mountain {
+  position: relative;
+  top:4px;
+}
+
+.bio-p{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.code-img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.math-img{
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.skill-row-h3 {
+  margin: 0;
+}
+
+.skill-contact-hr {
+  margin-top: 15%;
+}
+
+.contact-me{
+  width: 30%;
+  margin:auto;
+}
+
+.contact-me-p {
+  margin-bottom: 35px;
+}
+
+.contact-me-h3 {
+  margin: 60px auto 35px;
+}
+.myButton {
+	background-color:#00A877;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:15px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#00B580;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  margin-top: 75px;
+  height: 100px;
+  padding-top: 30px;
+  background-color: #defcf9;
+
+}
+
+.footer-link {
+  color: #14C5B1;
+  margin-right: 10px;
+}
+.link-container{
+  margin-bottom: 30px;
+}
+
+/* .skill-row-h3, .skill-row-p {
+  text-align: left;
+} */
